@@ -1,3 +1,4 @@
+## merges two strings interchangeably 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
         word = ""
@@ -19,5 +20,6 @@ class Solution:
                     word +=word1[i]
                 print(word2[i])
                 word += word2[i]
+                print("this is a new line")
         return word
 
